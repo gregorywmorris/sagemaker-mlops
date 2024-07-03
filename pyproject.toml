@@ -1,0 +1,22 @@
+[project]
+name = "sagemaker-mlops"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "gregorywmorris", email = "gwm1980@gmail.com"},
+]
+dependencies = [
+    "sagemaker>=2.224.3",
+    "pandas>=2.2.2",
+    "numpy>=1.26.4",
+    "scikit-learn>=1.5.1",
+    "ipykernel>=6.29.5",
+    "toml>=0.10.2",
+]
+requires-python = "==3.11.*"
+readme = "README.md"
+license = {text = "MIT"}
+
+
+[tool.pdm]
+distribution = false
